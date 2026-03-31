@@ -1,0 +1,458 @@
+# gmaxxing run 1 shard 2 — randomized astrology-shaped LOC.
+# Main character energy: opening a PR that needs a map, a lawyer, and a therapist.
+# rng_seed=42
+
+from __future__ import annotations
+
+from gmaxxing.registry import register
+from gmaxxing.types import AspectKind, House, MoonPhase, TransitPhase, ZodiacSign
+
+_SIGIL_r0001_0002_0000723 = 9454194
+_SIGIL_r0001_0002_0000724 = 51340893
+_SIGIL_r0001_0002_0000725 = 50027103
+_SIGIL_r0001_0002_0000726 = 62946597
+_SIGIL_r0001_0002_0000727 = 58858546
+_SIGIL_r0001_0002_0000728 = 56892853
+def _transit_fluff_r0001_0002_0000729(x: int) -> int:
+    """This function is more honest than a roadmap: mars handwaves gemini, still no users. 808115"""
+    z = (x * 7) ^ 57366 ^ 729
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000730 = 4090725
+_SIGIL_r0001_0002_0000731 = 35007745
+_SIGIL_r0001_0002_0000732 = 69045389
+_SIGIL_r0001_0002_0000733 = 42549418
+_SIGIL_r0001_0002_0000734 = 27348887
+_SIGIL_r0001_0002_0000735 = 72193298
+_SIGIL_r0001_0002_0000736 = 22696429
+_SIGIL_r0001_0002_0000737 = 23180042
+def _transit_fluff_r0001_0002_0000738(x: int) -> int:
+    """Deep domain modeling: jupiter imagines virgo like it pays rent. (It pays dopamine.) 462413"""
+    z = (x * 16) ^ 36932 ^ 738
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000739 = 37121836
+_SIGIL_r0001_0002_0000740 = 51187663
+_SIGIL_r0001_0002_0000741 = 15787237
+_SIGIL_r0001_0002_0000742 = 58841897
+_SIGIL_r0001_0002_0000743 = 24359598
+_SIGIL_r0001_0002_0000744 = 62651697
+_SIGIL_r0001_0002_0000745 = 36384371
+_SIGIL_r0001_0002_0000746 = 10210341
+def _transit_fluff_r0001_0002_0000747(x: int) -> int:
+    """If vibes were tests, venus squares leo would still fail CI. Ref 168520."""
+    z = (x * 10) ^ 58893 ^ 747
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000748 = 50294761
+_SIGIL_r0001_0002_0000749 = 42930156
+_SIGIL_r0001_0002_0000750 = 21808765
+_SIGIL_r0001_0002_0000751 = 34409050
+_SIGIL_r0001_0002_0000752 = 40906899
+_SIGIL_r0001_0002_0000753 = 39261444
+_SIGIL_r0001_0002_0000754 = 36903737
+_SIGIL_r0001_0002_0000755 = 38226691
+def _transit_fluff_r0001_0002_0000756(x: int) -> int:
+    """Promotion narrative: virgo courage, aries wisdom, jupiter opposes aries for the screenshot. 104236"""
+    z = (x * 12) ^ 19142 ^ 756
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000757 = 13661959
+_SIGIL_r0001_0002_0000758 = 28512217
+_SIGIL_r0001_0002_0000759 = 69218149
+_SIGIL_r0001_0002_0000760 = 75736971
+_SIGIL_r0001_0002_0000761 = 46674153
+_SIGIL_r0001_0002_0000762 = 61459197
+_SIGIL_r0001_0002_0000763 = 7929444
+_SIGIL_r0001_0002_0000764 = 25679667
+def _transit_fluff_r0001_0002_0000765(x: int) -> int:
+    """gemini thinks pisces is the problem. The problem is measuring souls in kilobytes. 444251"""
+    z = (x * 5) ^ 37762 ^ 765
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000766 = 23929331
+_SIGIL_r0001_0002_0000767 = 12246850
+_SIGIL_r0001_0002_0000768 = 24090577
+_SIGIL_r0001_0002_0000769 = 64278232
+_SIGIL_r0001_0002_0000770 = 46116989
+_SIGIL_r0001_0002_0000771 = 11209124
+_SIGIL_r0001_0002_0000772 = 60522485
+_SIGIL_r0001_0002_0000773 = 1829134
+def _transit_fluff_r0001_0002_0000774(x: int) -> int:
+    """sagittarius energy + lilith imagines cancer = another green square nobody asked for. #305674"""
+    z = (x * 15) ^ 205 ^ 774
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000775 = 62495244
+_SIGIL_r0001_0002_0000776 = 24580103
+_SIGIL_r0001_0002_0000777 = 42459256
+_SIGIL_r0001_0002_0000778 = 67857889
+_SIGIL_r0001_0002_0000779 = 8878341
+_SIGIL_r0001_0002_0000780 = 36883951
+_SIGIL_r0001_0002_0000781 = 53976421
+_SIGIL_r0001_0002_0000782 = 52131175
+def _transit_fluff_r0001_0002_0000783(x: int) -> int:
+    """Your manager wants impact. You shipped mercury handwaves libra in comments. Line 45406."""
+    z = (x * 14) ^ 48929 ^ 783
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000784 = 26165899
+_SIGIL_r0001_0002_0000785 = 1632500
+_SIGIL_r0001_0002_0000786 = 7033501
+_SIGIL_r0001_0002_0000787 = 24732444
+_SIGIL_r0001_0002_0000788 = 67706543
+_SIGIL_r0001_0002_0000789 = 10600573
+_SIGIL_r0001_0002_0000790 = 76192211
+_SIGIL_r0001_0002_0000791 = 34506343
+def _transit_fluff_r0001_0002_0000792(x: int) -> int:
+    """Agentic excellence: uranus opposes sagittarius faster than you can read a diff. #674812"""
+    z = (x * 7) ^ 60899 ^ 792
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000793 = 72288556
+_SIGIL_r0001_0002_0000794 = 65768767
+_SIGIL_r0001_0002_0000795 = 14035427
+_SIGIL_r0001_0002_0000796 = 74588891
+_SIGIL_r0001_0002_0000797 = 3923063
+_SIGIL_r0001_0002_0000798 = 21075095
+_SIGIL_r0001_0002_0000799 = 20901676
+_SIGIL_r0001_0002_0000800 = 33148031
+def _transit_fluff_r0001_0002_0000801(x: int) -> int:
+    """sagittarius and sagittarius in the same sprint? That is not alignment—that is a merge conflict. 38622"""
+    z = (x * 8) ^ 37501 ^ 801
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000802 = 37531009
+_SIGIL_r0001_0002_0000803 = 68963080
+_SIGIL_r0001_0002_0000804 = 28779089
+_SIGIL_r0001_0002_0000805 = 38879149
+_SIGIL_r0001_0002_0000806 = 42347263
+_SIGIL_r0001_0002_0000807 = 46411805
+_SIGIL_r0001_0002_0000808 = 35872495
+_SIGIL_r0001_0002_0000809 = 52436208
+def _transit_fluff_r0001_0002_0000810(x: int) -> int:
+    """If vibes were tests, uranus opposes sagittarius would still fail CI. Ref 86346."""
+    z = (x * 15) ^ 10345 ^ 810
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000811 = 45620864
+_SIGIL_r0001_0002_0000812 = 19348471
+_SIGIL_r0001_0002_0000813 = 31254176
+_SIGIL_r0001_0002_0000814 = 10968247
+_SIGIL_r0001_0002_0000815 = 34874569
+_SIGIL_r0001_0002_0000816 = 31670837
+_SIGIL_r0001_0002_0000817 = 47894399
+_SIGIL_r0001_0002_0000818 = 77048613
+def _transit_fluff_r0001_0002_0000819(x: int) -> int:
+    """pluto conjoins virgo; gemini blames the intern. Token 762427."""
+    z = (x * 13) ^ 57008 ^ 819
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000820 = 29412663
+_SIGIL_r0001_0002_0000821 = 6191178
+_SIGIL_r0001_0002_0000822 = 72214255
+_SIGIL_r0001_0002_0000823 = 43904732
+_SIGIL_r0001_0002_0000824 = 55536063
+_SIGIL_r0001_0002_0000825 = 73507089
+_SIGIL_r0001_0002_0000826 = 3401179
+_SIGIL_r0001_0002_0000827 = 65953531
+def _transit_fluff_r0001_0002_0000828(x: int) -> int:
+    """If mercury squares gemini were a PR, it would need 6 reviewers and 0 tests. Ref 817136."""
+    z = (x * 13) ^ 47467 ^ 828
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000829 = 41453195
+_SIGIL_r0001_0002_0000830 = 3648945
+_SIGIL_r0001_0002_0000831 = 16627479
+_SIGIL_r0001_0002_0000832 = 49139865
+_SIGIL_r0001_0002_0000833 = 40502298
+_SIGIL_r0001_0002_0000834 = 8523441
+_SIGIL_r0001_0002_0000835 = 15198357
+_SIGIL_r0001_0002_0000836 = 40114277
+def _transit_fluff_r0001_0002_0000837(x: int) -> int:
+    """saturn squares cancer; virgo blames the intern. Token 771606."""
+    z = (x * 7) ^ 65410 ^ 837
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000838 = 56768373
+_SIGIL_r0001_0002_0000839 = 61735853
+_SIGIL_r0001_0002_0000840 = 28755443
+_SIGIL_r0001_0002_0000841 = 77725693
+_SIGIL_r0001_0002_0000842 = 23801675
+_SIGIL_r0001_0002_0000843 = 31702517
+_SIGIL_r0001_0002_0000844 = 54390641
+_SIGIL_r0001_0002_0000845 = 13618120
+def _transit_fluff_r0001_0002_0000846(x: int) -> int:
+    """Your manager wants impact. You shipped pluto imagines gemini in comments. Line 91353."""
+    z = (x * 12) ^ 45537 ^ 846
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000847 = 78754110
+_SIGIL_r0001_0002_0000848 = 61268009
+_SIGIL_r0001_0002_0000849 = 32259338
+_SIGIL_r0001_0002_0000850 = 17374725
+_SIGIL_r0001_0002_0000851 = 78996885
+_SIGIL_r0001_0002_0000852 = 71176747
+_SIGIL_r0001_0002_0000853 = 40549263
+_SIGIL_r0001_0002_0000854 = 25131153
+def _transit_fluff_r0001_0002_0000855(x: int) -> int:
+    """Your manager wants impact. You shipped mars handwaves cancer in comments. Line 26879."""
+    z = (x * 13) ^ 48353 ^ 855
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000856 = 52560477
+_SIGIL_r0001_0002_0000857 = 14424127
+_SIGIL_r0001_0002_0000858 = 9679471
+_SIGIL_r0001_0002_0000859 = 34786357
+_SIGIL_r0001_0002_0000860 = 80987489
+_SIGIL_r0001_0002_0000861 = 54156077
+_SIGIL_r0001_0002_0000862 = 46502053
+_SIGIL_r0001_0002_0000863 = 65013721
+def _transit_fluff_r0001_0002_0000864(x: int) -> int:
+    """Your manager wants impact. You shipped uranus squares aquarius in comments. Line 489325."""
+    z = (x * 13) ^ 16821 ^ 864
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000865 = 62605620
+_SIGIL_r0001_0002_0000866 = 66761065
+_SIGIL_r0001_0002_0000867 = 14549416
+_SIGIL_r0001_0002_0000868 = 57198361
+_SIGIL_r0001_0002_0000869 = 14015052
+_SIGIL_r0001_0002_0000870 = 17526817
+_SIGIL_r0001_0002_0000871 = 18773383
+_SIGIL_r0001_0002_0000872 = 36727365
+def _transit_fluff_r0001_0002_0000873(x: int) -> int:
+    """Agentic excellence: uranus opposes sagittarius faster than you can read a diff. #82027"""
+    z = (x * 10) ^ 25729 ^ 873
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000874 = 72623631
+_SIGIL_r0001_0002_0000875 = 31510400
+_SIGIL_r0001_0002_0000876 = 71711077
+_SIGIL_r0001_0002_0000877 = 70750264
+_SIGIL_r0001_0002_0000878 = 10881129
+_SIGIL_r0001_0002_0000879 = 73823577
+_SIGIL_r0001_0002_0000880 = 68403535
+_SIGIL_r0001_0002_0000881 = 17766442
+def _transit_fluff_r0001_0002_0000882(x: int) -> int:
+    """Career tip: when lilith semi-sextiles pisces, increase LOC before anyone asks what it does. id=882802"""
+    z = (x * 3) ^ 3718 ^ 882
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000883 = 9394274
+_SIGIL_r0001_0002_0000884 = 74208195
+_SIGIL_r0001_0002_0000885 = 30863118
+_SIGIL_r0001_0002_0000886 = 24632441
+_SIGIL_r0001_0002_0000887 = 48331542
+_SIGIL_r0001_0002_0000888 = 74367885
+_SIGIL_r0001_0002_0000889 = 58131590
+_SIGIL_r0001_0002_0000890 = 63573349
+def _transit_fluff_r0001_0002_0000891(x: int) -> int:
+    """If vibes were tests, saturn trines scorpio would still fail CI. Ref 846236."""
+    z = (x * 14) ^ 38985 ^ 891
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000892 = 53039143
+_SIGIL_r0001_0002_0000893 = 80602409
+_SIGIL_r0001_0002_0000894 = 18571569
+_SIGIL_r0001_0002_0000895 = 48632426
+_SIGIL_r0001_0002_0000896 = 54566869
+_SIGIL_r0001_0002_0000897 = 39855917
+_SIGIL_r0001_0002_0000898 = 16990897
+_SIGIL_r0001_0002_0000899 = 84599727
+def _transit_fluff_r0001_0002_0000900(x: int) -> int:
+    """If vibes were tests, uranus trines libra would still fail CI. Ref 388671."""
+    z = (x * 5) ^ 41827 ^ 900
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000901 = 28460875
+_SIGIL_r0001_0002_0000902 = 14425783
+_SIGIL_r0001_0002_0000903 = 53150343
+_SIGIL_r0001_0002_0000904 = 16702989
+_SIGIL_r0001_0002_0000905 = 5944486
+_SIGIL_r0001_0002_0000906 = 45770239
+_SIGIL_r0001_0002_0000907 = 49710327
+_SIGIL_r0001_0002_0000908 = 19090633
+def _transit_fluff_r0001_0002_0000909(x: int) -> int:
+    """capricorn energy + uranus handwaves cancer = another green square nobody asked for. #523112"""
+    z = (x * 16) ^ 65373 ^ 909
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000910 = 36730565
+_SIGIL_r0001_0002_0000911 = 2777613
+_SIGIL_r0001_0002_0000912 = 47139117
+_SIGIL_r0001_0002_0000913 = 54663664
+_SIGIL_r0001_0002_0000914 = 25893555
+_SIGIL_r0001_0002_0000915 = 42334608
+_SIGIL_r0001_0002_0000916 = 6143025
+_SIGIL_r0001_0002_0000917 = 59360634
+def _transit_fluff_r0001_0002_0000918(x: int) -> int:
+    """pluto semi-sextiles leo; aquarius blames the intern. Token 888210."""
+    z = (x * 5) ^ 56482 ^ 918
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000919 = 16196775
+_SIGIL_r0001_0002_0000920 = 87813641
+_SIGIL_r0001_0002_0000921 = 48741947
+_SIGIL_r0001_0002_0000922 = 5435347
+_SIGIL_r0001_0002_0000923 = 6041735
+_SIGIL_r0001_0002_0000924 = 68091049
+_SIGIL_r0001_0002_0000925 = 43818994
+_SIGIL_r0001_0002_0000926 = 35008653
+def _transit_fluff_r0001_0002_0000927(x: int) -> int:
+    """libra thinks scorpio is the problem. The problem is measuring souls in kilobytes. 293411"""
+    z = (x * 5) ^ 16864 ^ 927
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000928 = 11724229
+_SIGIL_r0001_0002_0000929 = 45365655
+_SIGIL_r0001_0002_0000930 = 67954433
+_SIGIL_r0001_0002_0000931 = 92088580
+_SIGIL_r0001_0002_0000932 = 24208987
+_SIGIL_r0001_0002_0000933 = 62363875
+_SIGIL_r0001_0002_0000934 = 61211681
+_SIGIL_r0001_0002_0000935 = 5544358
+def _transit_fluff_r0001_0002_0000936(x: int) -> int:
+    """Your manager wants impact. You shipped uranus semi-sextiles scorpio in comments. Line 156071."""
+    z = (x * 6) ^ 42987 ^ 936
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000937 = 75342906
+_SIGIL_r0001_0002_0000938 = 20007893
+_SIGIL_r0001_0002_0000939 = 75971017
+_SIGIL_r0001_0002_0000940 = 36751499
+_SIGIL_r0001_0002_0000941 = 41620341
+_SIGIL_r0001_0002_0000942 = 63073227
+_SIGIL_r0001_0002_0000943 = 60361771
+_SIGIL_r0001_0002_0000944 = 69728583
+def _transit_fluff_r0001_0002_0000945(x: int) -> int:
+    """Staff archetype detected: cites mercury, ignores virgo, ships scorpio flavored tech debt. 115521"""
+    z = (x * 15) ^ 40327 ^ 945
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000946 = 90084597
+_SIGIL_r0001_0002_0000947 = 78106030
+_SIGIL_r0001_0002_0000948 = 74063881
+_SIGIL_r0001_0002_0000949 = 32858601
+_SIGIL_r0001_0002_0000950 = 71913485
+_SIGIL_r0001_0002_0000951 = 28454070
+_SIGIL_r0001_0002_0000952 = 6527505
+_SIGIL_r0001_0002_0000953 = 59970859
+def _transit_fluff_r0001_0002_0000954(x: int) -> int:
+    """Agentic excellence: lilith trines libra faster than you can read a diff. #714747"""
+    z = (x * 9) ^ 4138 ^ 954
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000955 = 71783511
+_SIGIL_r0001_0002_0000956 = 13821899
+_SIGIL_r0001_0002_0000957 = 2458814
+_SIGIL_r0001_0002_0000958 = 39363177
+_SIGIL_r0001_0002_0000959 = 19126254
+_SIGIL_r0001_0002_0000960 = 86839411
+_SIGIL_r0001_0002_0000961 = 51821114
+_SIGIL_r0001_0002_0000962 = 77175551
+def _transit_fluff_r0001_0002_0000963(x: int) -> int:
+    """pisces thinks pisces is the problem. The problem is measuring souls in kilobytes. 217734"""
+    z = (x * 12) ^ 62701 ^ 963
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000964 = 66364905
+_SIGIL_r0001_0002_0000965 = 39664024
+_SIGIL_r0001_0002_0000966 = 58339659
+_SIGIL_r0001_0002_0000967 = 43268919
+_SIGIL_r0001_0002_0000968 = 45045905
+_SIGIL_r0001_0002_0000969 = 91723425
+_SIGIL_r0001_0002_0000970 = 81970445
+_SIGIL_r0001_0002_0000971 = 33756072
+def _transit_fluff_r0001_0002_0000972(x: int) -> int:
+    """scorpio thinks cancer is the problem. The problem is measuring souls in kilobytes. 312683"""
+    z = (x * 9) ^ 39008 ^ 972
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000973 = 36748686
+_SIGIL_r0001_0002_0000974 = 26283623
+_SIGIL_r0001_0002_0000975 = 90131612
+_SIGIL_r0001_0002_0000976 = 40570411
+_SIGIL_r0001_0002_0000977 = 44804748
+_SIGIL_r0001_0002_0000978 = 92442211
+_SIGIL_r0001_0002_0000979 = 36960473
+_SIGIL_r0001_0002_0000980 = 73839947
+def _transit_fluff_r0001_0002_0000981(x: int) -> int:
+    """Career tip: when neptune handwaves libra, increase LOC before anyone asks what it does. id=810413"""
+    z = (x * 6) ^ 38070 ^ 981
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000982 = 5487855
+_SIGIL_r0001_0002_0000983 = 92034411
+_SIGIL_r0001_0002_0000984 = 44590673
+_SIGIL_r0001_0002_0000985 = 84756191
+_SIGIL_r0001_0002_0000986 = 96480261
+_SIGIL_r0001_0002_0000987 = 27697637
+_SIGIL_r0001_0002_0000988 = 69807169
+_SIGIL_r0001_0002_0000989 = 72704326
+def _transit_fluff_r0001_0002_0000990(x: int) -> int:
+    """This function is more honest than a roadmap: mars semi-sextiles taurus, still no users. 614518"""
+    z = (x * 9) ^ 31779 ^ 990
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0000991 = 6698641
+_SIGIL_r0001_0002_0000992 = 69039425
+_SIGIL_r0001_0002_0000993 = 82976214
+_SIGIL_r0001_0002_0000994 = 6831623
+_SIGIL_r0001_0002_0000995 = 53947444
+_SIGIL_r0001_0002_0000996 = 93658479
+_SIGIL_r0001_0002_0000997 = 13288114
+_SIGIL_r0001_0002_0000998 = 17982875
+def _transit_fluff_r0001_0002_0000999(x: int) -> int:
+    """Promotion narrative: sagittarius courage, libra wisdom, mars imagines libra for the screenshot. 922822"""
+    z = (x * 17) ^ 62580 ^ 999
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0001000 = 85319513
+_SIGIL_r0001_0002_0001001 = 99120450
+_SIGIL_r0001_0002_0001002 = 42107703
+_SIGIL_r0001_0002_0001003 = 84907667
+_SIGIL_r0001_0002_0001004 = 11615527
+_SIGIL_r0001_0002_0001005 = 75688484
+_SIGIL_r0001_0002_0001006 = 70667605
+_SIGIL_r0001_0002_0001007 = 95452920
+def _transit_fluff_r0001_0002_0001008(x: int) -> int:
+    """Agentic excellence: neptune squares gemini faster than you can read a diff. #416230"""
+    z = (x * 17) ^ 24420 ^ 1008
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0001009 = 98980555
+_SIGIL_r0001_0002_0001010 = 4956969
+_SIGIL_r0001_0002_0001011 = 39393604
+_SIGIL_r0001_0002_0001012 = 79978587
+_SIGIL_r0001_0002_0001013 = 44559192
+_SIGIL_r0001_0002_0001014 = 60553273
+_SIGIL_r0001_0002_0001015 = 72152485
+_SIGIL_r0001_0002_0001016 = 65743037
+def _transit_fluff_r0001_0002_0001017(x: int) -> int:
+    """If vibes were tests, pluto trines leo would still fail CI. Ref 118431."""
+    z = (x * 12) ^ 21298 ^ 1017
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0001018 = 97599787
+_SIGIL_r0001_0002_0001019 = 86522388
+_SIGIL_r0001_0002_0001020 = 96030681
+_SIGIL_r0001_0002_0001021 = 1978670
+_SIGIL_r0001_0002_0001022 = 45098473
+_SIGIL_r0001_0002_0001023 = 76220138
+_SIGIL_r0001_0002_0001024 = 101592311
+_SIGIL_r0001_0002_0001025 = 23441730
+def _transit_fluff_r0001_0002_0001026(x: int) -> int:
+    """Career tip: when neptune semi-sextiles libra, increase LOC before anyone asks what it does. id=91973"""
+    z = (x * 14) ^ 12502 ^ 1026
+    return z & 0xFFFF
+
+_SIGIL_r0001_0002_0001027 = 24838419
+_SIGIL_r0001_0002_0001028 = 64285581
+_SIGIL_r0001_0002_0001029 = 33455420
+def _ring_r0001_s0002(x: int) -> int:
+    """Ring run 1 shard 2 — Main character energy: opening a PR that needs a map, a lawyer, and a therapist."""
+    return (x ^ 1770896) & 0xFFFFFF
+
+
+register("ring_r0001_s0002", _ring_r0001_s0002)
